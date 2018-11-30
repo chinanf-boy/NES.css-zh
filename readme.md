@@ -15,19 +15,18 @@
 
 ---
 
-## 校对 ✅
+## 更新 ✅
 
 <!-- doc-templite START generated -->
 <!-- repo = 'BcRikko/NES.css' -->
-<!-- commit = '3d15afce5cb0ff28ddc87c7fbffef786adeb4824' -->
-<!-- time = '2018-11-28' -->
-
-| 翻译的原文 | 与日期        | 最新更新 | 更多                       |
-| ---------- | ------------- | -------- | -------------------------- |
-| [commit]   | ⏰ 2018-11-28 | ![last]  | [中文翻译][translate-list] |
+<!-- commit = '4c6bf1f8883a39e3eb3bc368ecbce3257ec99b7d' -->
+<!-- time = '2018-11-30' -->
+翻译的原文 | 与日期 | 最新更新 | 更多
+---|---|---|---
+[commit] | ⏰ 2018-11-30 | ![last] | [中文翻译][translate-list]
 
 [last]: https://img.shields.io/github/last-commit/BcRikko/NES.css.svg
-[commit]: https://github.com/BcRikko/NES.css/tree/3d15afce5cb0ff28ddc87c7fbffef786adeb4824
+[commit]: https://github.com/BcRikko/NES.css/tree/4c6bf1f8883a39e3eb3bc368ecbce3257ec99b7d
 
 <!-- doc-templite END generated -->
 
@@ -98,6 +97,45 @@ NES.css 只包含 CSS,不需要 JavaScript.
 未经证实
 
 - IE/Edge
+
+## 开发
+
+### 可执行
+
+```sh
+git clone git@github.com:BcRikko/NES.css.git
+cd NES.css
+
+npm i
+
+npm run watch
+npm run build
+```
+
+通过预提交钩子，在提交时 ， Lint→format→build 自动运行，文件输出到`css`目录。
+
+TODO：
+
+- [ ] 我想改为使用 CI 完成的构建
+
+### 项目结构
+
+```
+.
+|- index.html: Demo 页面
+|- style.css: Demo 页面样式
+|- css: 分发文件
+|- scss: 源文件
+    |- base
+    |   |- reboot.scss: **不要修改!** (Bootstrap Reboot)
+    |   |- generic.scss: 通用样式 和 覆盖 reboot.css
+    |   |- variables.scss: 常用变量
+    |- elements
+    |- form
+    |- icons: 提供 16x16 icon
+    |- pixel-arts: 其他大于 16x16 的 icon.
+    |- utilities
+```
 
 ## Copyright 和 license
 
