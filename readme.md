@@ -19,14 +19,14 @@
 
 <!-- doc-templite START generated -->
 <!-- repo = 'BcRikko/NES.css' -->
-<!-- commit = '4c6bf1f8883a39e3eb3bc368ecbce3257ec99b7d' -->
-<!-- time = '2018-11-30' -->
+<!-- commit = '32abcde4b6df780800ff9712ca89aefc6c08418b' -->
+<!-- time = '2018-12-02' -->
 翻译的原文 | 与日期 | 最新更新 | 更多
 ---|---|---|---
-[commit] | ⏰ 2018-11-30 | ![last] | [中文翻译][translate-list]
+[commit] | ⏰ 2018-12-02 | ![last] | [中文翻译][translate-list]
 
 [last]: https://img.shields.io/github/last-commit/BcRikko/NES.css.svg
-[commit]: https://github.com/BcRikko/NES.css/tree/4c6bf1f8883a39e3eb3bc368ecbce3257ec99b7d
+[commit]: https://github.com/BcRikko/NES.css/tree/32abcde4b6df780800ff9712ca89aefc6c08418b
 
 <!-- doc-templite END generated -->
 
@@ -76,11 +76,16 @@ TODO:
 
 NES.css 只提供组件样式,请根据需要定义布局.
 
-默认情况下，如果您使用的是英语以外的字体(如日语),请单独阅读`Press Start 2P`，并使用这些字体.
+默认情况下，`Press Start 2P`仅支持英文字符，如果您使用的是英语以外的字体(如日语),请使用其他字体.
 
-TODO:
+### 推荐 Fonts
 
-- [ ] 写下详细`Press Start 2P`信息
+| 国家语言  | Font                                                               |
+| --------- | ------------------------------------------------------------------ |
+| (Default) | [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P) |
+| 英语   | [Kongtext](https://www.dafont.com/kongtext.font)                   |
+| 日语  | [美咲フォント](http://www.geocities.jp/littlimi/misaki.htm)        |
+| 日语  | [Nu もち](http://kokagem.sakura.ne.jp/font/mochi/)                 |
 
 ## 仅有 CSS
 
